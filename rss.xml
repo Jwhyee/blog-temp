@@ -1,4 +1,174 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Jwhy Blogitory]]></title><description><![CDATA[Jwhy Blog Repository]]></description><link>https://jwhyee.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 15 Aug 2022 07:59:42 GMT</lastBuildDate><item><title><![CDATA[Quick Start]]></title><description><![CDATA[Getting Started 😎 1. Create a Gatsby site. If you are not using , following Gatsby Getting Started 2. Start developing. 3. Add your content…]]></description><link>https://jwhyee.github.io/development/quick_start/</link><guid isPermaLink="false">https://jwhyee.github.io/development/quick_start/</guid><pubDate>Sun, 05 Jul 2020 17:21:13 GMT</pubDate><content:encoded>&lt;h1 id=&quot;getting-started-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#getting-started-&quot; aria-label=&quot;getting started  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Getting Started 😎&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Jwhy Blogitory]]></title><description><![CDATA[Jwhy Blog Repository]]></description><link>https://jwhyee.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 15 Aug 2022 10:44:48 GMT</lastBuildDate><item><title><![CDATA[해커톤 프로젝트 회고(1회차)]]></title><description><![CDATA[해커톤이란?  + 의 합성어로 제한된 시간 동안 아이디어를 도출하고 결과물을 만들어내는 이벤트이다. 멋쟁이 사자처럼 백엔드 스쿨…]]></description><link>https://jwhyee.github.io/like-lion/hackerton-retrospect1/</link><guid isPermaLink="false">https://jwhyee.github.io/like-lion/hackerton-retrospect1/</guid><pubDate>Mon, 15 Aug 2022 17:09:30 GMT</pubDate><content:encoded>&lt;h2 id=&quot;해커톤이란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%95%B4%EC%BB%A4%ED%86%A4%EC%9D%B4%EB%9E%80&quot; aria-label=&quot;해커톤이란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;해커톤이란?&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;해킹(hacking)&lt;/code&gt; + &lt;code class=&quot;language-text&quot;&gt;마라톤(marathon)&lt;/code&gt;의 합성어로 제한된 시간 동안 아이디어를 도출하고 결과물을 만들어내는 이벤트이다.&lt;br&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;멋쟁이 사자처럼 백엔드 스쿨 1기에서는 아이디어톤과 해커톤을 나눠서 진행했다.&lt;br&gt;
+아이디어톤에 제출한 나의 아이디어로 팀이 꾸려졌고, &lt;strong&gt;팀장&lt;/strong&gt;을 맡게 되었다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;프로젝트를-진행하면서-발생한-문제점&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A5%BC-%EC%A7%84%ED%96%89%ED%95%98%EB%A9%B4%EC%84%9C-%EB%B0%9C%EC%83%9D%ED%95%9C-%EB%AC%B8%EC%A0%9C%EC%A0%90&quot; aria-label=&quot;프로젝트를 진행하면서 발생한 문제점 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;프로젝트를 진행하면서 발생한 문제점&lt;/h2&gt;
+&lt;p&gt;아래는 현재 프로젝트 초반에 발생한 문제들이다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;회원 인증 관련 이슈&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Thymeleaf에서 인증된 회원 사용&lt;/li&gt;
+&lt;li&gt;Controller에서 인증된 회원 사용&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;협업 방식 관련 이슈&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;git branch 전략 미사용&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;1-회원-인증-관련-이슈&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-%ED%9A%8C%EC%9B%90-%EC%9D%B8%EC%A6%9D-%EA%B4%80%EB%A0%A8-%EC%9D%B4%EC%8A%88&quot; aria-label=&quot;1 회원 인증 관련 이슈 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. 회원 인증 관련 이슈&lt;/h2&gt;
+&lt;h3 id=&quot;thymeleaf의-애매한-사용&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#thymeleaf%EC%9D%98-%EC%95%A0%EB%A7%A4%ED%95%9C-%EC%82%AC%EC%9A%A9&quot; aria-label=&quot;thymeleaf의 애매한 사용 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Thymeleaf의 애매한 사용&lt;/h3&gt;
+&lt;p&gt;팀장을 맡았지만 막상 개발을 할 생각에 막연했던 나는 이전에 졸업 작품으로 진행한 프로젝트 방식을 채택해 사용하기로 했다.
+하지만 해당 프로젝트에는 &lt;strong&gt;큰 문제점&lt;/strong&gt;이 있었는데, 바로 &lt;code class=&quot;language-text&quot;&gt;thymeleaf&lt;/code&gt;의 &lt;code class=&quot;language-text&quot;&gt;fragment&lt;/code&gt;를 애매하게 사용했다는 점이다.&lt;br&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;졸업 작품을 개발할 당시 Spring Boot와 Thymeleaf에 대한 이해도가 적어 공부를 해볼 생각으로 막연하게 졸업작품 프로젝트로 진행을 했다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 254px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 90.94488188976378%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAAsSAAALEgHS3X78AAAC/ElEQVQ4y4VUaW/aUBDkl1RNMIe5DMbY2MbGF74wdyAhhOZWmqqtqn5oValSf/p0/QwkkdLmw2jWz2g8uzu8XFWIYFjn0Iw1OhpBXRFOoejnu3oFWTvLoK8ZK8SivECx3EehZDLeI8fxAb7dX2OzvIKX/MJ0+Qde9BVe+AXjxW+GaPwDjv8J8fQnguQ7TOcSinaCIomVnokxwUZ7DNO7hW5foefewxx8ZNy1rqEPHqF5D1DsW2jOHZT+HVQ75VsIyhrvjg28zxvguB7yeZ0hVxVC+sEVZGOLVneJpjwnXtFHbjB0txg5Fxi7H2Bba8ynWwTBOZbzSyxnGyRehNAO0TYSyOESbWeGXKFooMw7DFyBvsJp4OhMbEXQGi7BgSG4qPEGtI4FUTDRU2xMBgEiErN6AbmN0DRGaJlj5NK+680hIUaJt9gcShUXSncGTx7C78QIiZXWAJFDC1R9chZjPRphHg5ZLfVHkKMl5OAkE6zUfVRqAxKzsq3xNoRmCF0M0Gv5MIlFctvXfciSC4s4bdUm7ms+BDmEaE8hqHEmWK0HmSD/JKhpC0TdBJEcI1FoRk2PZhrBVAcYD2LcnEywmYwwIZeSNYYSr9Al7AR9JlraCabMER/TLFPkqc4XTRxx9FzImKPndMOsJuTzPbbtg8MUTy1bTDTN2D5nrOZfYULxACsTrAkxqo3wWfJfOmR1IXO3d5i5JWdc5owr9JhLJsjXPJSr7kGwRDOsCwHaDQ9S3UO1akGhZbRFBxJB6XhQCZLossjU5Qg1ieKjDncOG9HO4W6GFYfFZt2fY6GOIbc8TIIYnknZc0I8nM1wliSIKTJqsIA+v4CanMI6v94Lhmwxr7V8VMwWsF9Ihlda5p61nEaGf9FytpTyAbvhl9/GLtj7LZMgOSqRQ1lfYmSdYq0lSIwFahT0dPDpBwsl45/IVRsB9P4WqrGB2Jmh2Z6gKU3RVhaQ6KLo0FlHoQuDzrJ3/0euQf9jf/iZ7sBHdHubwwWbskScYX/2Nv4CImJcZ03tG7YAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;fragments img&quot;
+        title=&quot;fragments img&quot;
+        src=&quot;/static/41b5d7d9493390b46c3740fbdc8e02bc/6a91e/fragments-img.png&quot;
+        srcset=&quot;/static/41b5d7d9493390b46c3740fbdc8e02bc/6a91e/fragments-img.png 254w&quot;
+        sizes=&quot;(max-width: 254px) 100vw, 254px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;또한, &lt;code class=&quot;language-text&quot;&gt;Spring Security&lt;/code&gt;를 이용해서 회원 인증 처리는 했지만 인증된 회원 객체를 불러오기 위해 &lt;code class=&quot;language-text&quot;&gt;th:sec&lt;/code&gt;을 사용하는 것이 아닌  &lt;code class=&quot;language-text&quot;&gt;@CurrentUser&lt;/code&gt;라는 &lt;code class=&quot;language-text&quot;&gt;Security&lt;/code&gt;를 이용한 &lt;strong&gt;커스텀 어노테이션&lt;/strong&gt;을 생성해
+&lt;code class=&quot;language-text&quot;&gt;Controller&lt;/code&gt;단에서 &lt;code class=&quot;language-text&quot;&gt;Account&lt;/code&gt;를 보내주는 방식을 채택한 것이다.&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 776px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 16.333333333333332%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAAAsSAAALEgHS3X78AAAAwUlEQVQI1y2O4W6CMBSFeZgBrSLCaIsMWrSLi040wrYMs2TZ+7/Et8b44+Qk5+ae80Wqmen8L42b0P6G2Qe93sjVlbw6o80epU6o6sLKHDGbkWz1Rpw6ErEjXewQy6DgcuGJhAyhsAjpSKUnTvp7md7+oewP2s5U9cim+US1X6hupqwnim6gbCey8hCGDuTrI9XzQJTI7X0tTvuHW2QgyMKxqD8ozIgJZM3LKdC9k6mBdTug3ZW+/0YuPU+Jffw6/gGbX2Qbo2Q/ogAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;controller img&quot;
+        title=&quot;controller img&quot;
+        src=&quot;/static/438d81871e822141e12958dd1fe04331/167b5/controller-img.png&quot;
+        srcset=&quot;/static/438d81871e822141e12958dd1fe04331/5a46d/controller-img.png 300w,
+/static/438d81871e822141e12958dd1fe04331/0a47e/controller-img.png 600w,
+/static/438d81871e822141e12958dd1fe04331/167b5/controller-img.png 776w&quot;
+        sizes=&quot;(max-width: 776px) 100vw, 776px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 445px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 29.000000000000004%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAABJUlEQVQY012RW0/CQBCF+1+E3gCNBSottt1SesFCL6lJgVovDyZGfDAq/v3jLCCQPnzZnczOmTmzgqVFMHUPrh3hmmXQWIphUGA4LSArLkTZhiidQXFbOiHKzhEeC90uiekxjIEHzwkxdBL0/QKDSQ4jXqFzFdJDXsDQpqIWvysOZNWFpLCT8EFckBSecGH1Z9AHd+jfZvCdACNW4L7cYr38Qp5/IE3f8VD9oKq2sLwawewF4fwVzEhhUm2LT8kn3HdmcPQ5XEr0zBxTO8TYjhHFG9Trb6zKTySLNzzVv3gk0YTEx6yEzZbwome4JOqTS5XcCp2ej4mRYaTNdpZ4l90p7y2oND1HIXvqAeXManOPwuRmgUsSvRCt42LPaR1o3puf8c8fg9bJhmvO6UoAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;header img&quot;
+        title=&quot;header img&quot;
+        src=&quot;/static/cc8455bbe8117b7f51fbf68d50df24c7/e66bf/header-img.png&quot;
+        srcset=&quot;/static/cc8455bbe8117b7f51fbf68d50df24c7/5a46d/header-img.png 300w,
+/static/cc8455bbe8117b7f51fbf68d50df24c7/e66bf/header-img.png 445w&quot;
+        sizes=&quot;(max-width: 445px) 100vw, 445px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;즉, 이 프로젝트의 문제점은 Controller에 있는 모든 Method마다 Account를 Model에 담아 보내줘야하며, 모든 페이지마다 Account를 필수로 보내줘야하는 것이다.
+코드의 중복뿐만 아니라, fragment도 가독성도 떨어지고, 여러 Domain에서 1개의 fragment에만 의존해 관심사가 한 fragment에 집중되어 있었다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;어떻게-해결해야할까&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%B4%EA%B2%B0%ED%95%B4%EC%95%BC%ED%95%A0%EA%B9%8C&quot; aria-label=&quot;어떻게 해결해야할까 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;어떻게 해결해야할까?&lt;/h3&gt;
+&lt;p&gt;팀 담당 멘토님에게 자문을 구하고, 블로그를 찾아보며 &lt;code class=&quot;language-text&quot;&gt;Thymeleaf&lt;/code&gt;에서 제공하는 &lt;code class=&quot;language-text&quot;&gt;layout&lt;/code&gt;을 새로 알게되어 이를 이용해 &lt;strong&gt;리팩터링&lt;/strong&gt;을 진행하였다.&lt;/p&gt;
+&lt;h3 id=&quot;1-fragment를-독립된-파일로-만들기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-fragment%EB%A5%BC-%EB%8F%85%EB%A6%BD%EB%90%9C-%ED%8C%8C%EC%9D%BC%EB%A1%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0&quot; aria-label=&quot;1 fragment를 독립된 파일로 만들기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. Fragment를 독립된 파일로 만들기&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;하나의 파일로 이루어져있던 fragment를 용도에 맞는 파일로 나눠주었다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 198px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 71.21212121212122%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAACaklEQVQ4y4VTyVJaURDlL5KSeR5kEGR8wAMEAYEwPebRqCVqJElFLeMiQ5ldFsk+6/xOvumk+z4xIaVm0XW53dzTfc7pp3G4MrA70/B4C/AH9+Dy5MA5szVBIcFqT1Fdhs2RhvpfWZyPhcbpziIca6LefoMfP3+hXDuhWGA4+4DD069o96/Q6l0ikeoReJIeZZ8E1qyKPCE/crjzMNuziCba1KgFr78I31YZHl9BTMuTPjWtZpVk2jpDDHm5iEHjBWzOLOwOliIvZGAm3kAJm75d0fy/E7rcGWhNKSzGbXy/mSBfOcPs6JbiCzrDa0jpvqA+mn9U6duSoskKaNVA82/CRqfVwSao9DivmpISICrllAiLTaJIrklwD+ikCQ2WFJp7VbyaKfD4y4hJijBsk3QMReqIxFuIkLYB2gbWle9cZ51XoGuAOqI86zTw6byHiDRAd3SNfOkAud19cvsSvfENpge3qCtvIckDkuACCsnBoGzYg5TNtjSM1jQstId6YxgGYwQmS1wE/9bpt8XJe2o0x6A3hEXtQco84VRp4PPrAXzBOuTcWEwXkzpEr43MzhQl2tM05VmCaELBTvElMvnp4xq2KlUs5wpCUQXK4ArN7jskyGF+yMvfGb0XOTk3QZJoN7sX9CGcCsfXAO9ddqguG01RQU+rD6nUiP6GNohnz310bom7ifI6qmt1wbuv6C8NeQ83jEkcj1r4RnsYTvRRqZ8hW5gTxQmKlWOUqou7iU7EnaUolI9QbZxDJjnYmD+UKUxkRjFXxrBRw3a8g1prKTQMhCrC1VpzKRzmJgzAC85RKB8KcF6d30St2OonZdsEAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;layout fragment img&quot;
+        title=&quot;layout fragment img&quot;
+        src=&quot;/static/bb402de8087fe256077d94e2b11659b2/18f77/layout-fragment-img.png&quot;
+        srcset=&quot;/static/bb402de8087fe256077d94e2b11659b2/18f77/layout-fragment-img.png 198w&quot;
+        sizes=&quot;(max-width: 198px) 100vw, 198px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&quot;2-thymeleaf-security의-활용&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-thymeleaf-security%EC%9D%98-%ED%99%9C%EC%9A%A9&quot; aria-label=&quot;2 thymeleaf security의 활용 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. Thymeleaf Security의 활용&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;기존에 Controller에서 Model에 담아서 보내주는 것이 아닌 principal을 이용해 현재 인증된 유저의 username을 불러왔다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;span&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;item-title&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;&lt;span class=&quot;token namespace&quot;&gt;sec:&lt;/span&gt;authentication&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;principal.username&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;닉네임&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;span&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;3-회원-정보가-필요-시-vo-활용&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-%ED%9A%8C%EC%9B%90-%EC%A0%95%EB%B3%B4%EA%B0%80-%ED%95%84%EC%9A%94-%EC%8B%9C-vo-%ED%99%9C%EC%9A%A9&quot; aria-label=&quot;3 회원 정보가 필요 시 vo 활용 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. 회원 정보가 필요 시 VO 활용&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;보통 회원 정보가 필요할 경우 해당 Entity를 Model에 담아 보내주었다.
+하지만 이런 방식으로 View에 잘 보내주지 않는 다는 것을 알게 되었다.
+때문에 VO를 사용하여 최소한의 필요한 정보만 담아 View에 보내주는 것으로 리팩터링 하였다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token annotation punctuation&quot;&gt;@GetMapping&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;/profile/setting&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;showProfilePage&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Principal&lt;/span&gt; principal&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Model&lt;/span&gt; model&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    log&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;info&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;principal.getName()={}&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; principal&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getName&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;token class-name&quot;&gt;MemberVo&lt;/span&gt; member &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; memberService&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getReadOnlyMember&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;principal&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getName&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    model&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;addAttribute&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;member&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;profile/profile-setting&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;2-협업-방식-관련-이슈&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-%ED%98%91%EC%97%85-%EB%B0%A9%EC%8B%9D-%EA%B4%80%EB%A0%A8-%EC%9D%B4%EC%8A%88&quot; aria-label=&quot;2 협업 방식 관련 이슈 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. 협업 방식 관련 이슈&lt;/h2&gt;
+&lt;p&gt;앞서 말했던 졸업작품을 개발할 당시에 &lt;code class=&quot;language-text&quot;&gt;git branch&lt;/code&gt; 전략을 사용하지 않고, 각자 이름으로 된 브랜치를 만들어 기능 개발을 완성하면 &lt;code class=&quot;language-text&quot;&gt;master&lt;/code&gt;에 &lt;code class=&quot;language-text&quot;&gt;PullRequest&lt;/code&gt;를 올리는 방식으로 진행했다. 이 때의 문제점은 그래프가 지저분해지며, &lt;code class=&quot;language-text&quot;&gt;git log&lt;/code&gt;를 분석하기도 어려웠다. 그리고 가장 큰 단점은 이 협업 방식의 흐름이다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;개발 -&gt; master로 PR 보내기 -&gt; 코드리뷰 기다리기 -&gt; 승인 후 master에 올라감 -&gt; 다른 팀원이 개발한 내용 내 브랜&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 646px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 96%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAABYlAAAWJQFJUiTwAAAC2klEQVQ4y31UyXLTQBD1GfAqWatHqy0plmx5SeI9cRwnpEhRFAcoDlRx4f9/4dE9shybBA6veqal7n7d82YqDcWC7UboeDFMEUK3fOh2AMvpSX9TtVBtaPhQb+N9VZF4d0Ctqctv72vq0VfhwNlmj7unL/j4+Ru+//yNrz9+YXP/ifwPlLiLuD9CPl0gjAbweyl6FyN43T5UXSCfLJBkE/LlCKIMlbbpoj+6Rj+/xnC6xNVqh+n8Vu7jwRQKBbU0G5rlgf9llOtqU5NdaZZLXfkwCJUq0daoRSfso+MnsKhNm9oXwQUE+dga1EVLd15BNT00NQHFoEI0qrpiFgk7fozN7gmLmz3m6x2WZHm93j5i+/CM2eruyIzZlCgZG52ARpERMcmQaIc5jGgOM7qGGc8kjMPaiuewk4VEp7+ESFdvYA2zN4WgDit1zYGgH3nYtpfApPZM0aMRpLJ1HgGPgtE2fZqbgVrLPEO1oVPxOY2AGNZINlwhGG7gZWu4VNFJqQDtec0+f1B8ExcLGN0p9HAKIzy1E4hsi2bbLlrWiZFqd6GYARQrlGtNRBK8bx/2uhPBcJO3Qd8apNlKrWXQKTnIxjM6iAdcLe+QXy7lqek07Ix05pP+VHmSLJcTWN7Rp9H/zTIhB7M8OFDKhcBSYngHH/9T+gow80BKpygeFgzlKdNBeL0BiXmG2/0zxrObYwLWGAedJysS9UczeRHS8fwlId9H3hiiK8HJ2UqxUhB/+ztZieISFJfhLGFZMaWKl3KGK0yIZZjkMvG/EnIX6mGWvD9LyGDdud1Uzqy0r2f3Nphh8zQhByaDSzrlHfKrNc00o/tK7P7T8inTVwzLk+7S0xTEQ8lWJTnxXWV7ikIu/hleErb0s0qK4RVzI2beeA93uIU3uoc/eSS7l9b0Uqm7U/bHlvm1UeRzJCSU0+eJbohq99DuRGiLuLCdWBZtaeIYI+OIeZ00/Qd7Bgr/HXOMVwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;github branch&quot;
+        title=&quot;github branch&quot;
+        src=&quot;/static/6fade37fd76187e0494dd78bcb136706/27524/github-branch.png&quot;
+        srcset=&quot;/static/6fade37fd76187e0494dd78bcb136706/5a46d/github-branch.png 300w,
+/static/6fade37fd76187e0494dd78bcb136706/0a47e/github-branch.png 600w,
+/static/6fade37fd76187e0494dd78bcb136706/27524/github-branch.png 646w&quot;
+        sizes=&quot;(max-width: 646px) 100vw, 646px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;이를 해결하기 위해 &lt;code class=&quot;language-text&quot;&gt;git-flow&lt;/code&gt; 전략을 채택하였고, 이를 도입하기 위해 테스트 &lt;code class=&quot;language-text&quot;&gt;Repository&lt;/code&gt;를 만들어 팀원과 테스트를 진행해보았다.&lt;br&gt;
+우선 develop 브랜치를 생성해 5개의 파일을 만들었다. 그 다음 모든 팀원이 develop에서 개발을 진행을 해보니 서로 겹치지 않는 이상 문제가 없을 것 같아 이 방법을 채택했다.&lt;br&gt;
+이 방식을 통해 프로젝트 최신화를 기다리지 않아도 되고, 작업한 내용을 바로바로 받아 사용할 수 있게 되었다.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://wildeveloperetrain.tistory.com/136&quot;&gt;참고 블로그&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Quick Start]]></title><description><![CDATA[Getting Started 😎 1. Create a Gatsby site. If you are not using , following Gatsby Getting Started 2. Start developing. 3. Add your content…]]></description><link>https://jwhyee.github.io/development/quick_start/</link><guid isPermaLink="false">https://jwhyee.github.io/development/quick_start/</guid><pubDate>Sun, 05 Jul 2020 17:21:13 GMT</pubDate><content:encoded>&lt;h1 id=&quot;getting-started-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#getting-started-&quot; aria-label=&quot;getting started  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Getting Started 😎&lt;/h1&gt;
 &lt;h2 id=&quot;1-create-a-gatsby-site&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-create-a-gatsby-site&quot; aria-label=&quot;1 create a gatsby site permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. Create a Gatsby site.&lt;/h2&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;# create a new Gatsby site using the blog starter
 $ npx gatsby new my-blog-starter https://github.com/JaeYeopHan/gatsby-starter-bee&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
