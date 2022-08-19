@@ -1,4 +1,70 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Jwhy Blogitory]]></title><description><![CDATA[Jwhy Blog Repository]]></description><link>https://jwhyee.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 15 Aug 2022 12:33:54 GMT</lastBuildDate><item><title><![CDATA[해커톤 프로젝트 회고(1회차)]]></title><description><![CDATA[해커톤이란?  + 의 합성어로 제한된 시간 동안 아이디어를 도출하고 결과물을 만들어내는 이벤트이다. 멋쟁이 사자처럼 백엔드 스쿨…]]></description><link>https://jwhyee.github.io/like-lion/hackerton-retrospect1/</link><guid isPermaLink="false">https://jwhyee.github.io/like-lion/hackerton-retrospect1/</guid><pubDate>Mon, 15 Aug 2022 17:09:30 GMT</pubDate><content:encoded>&lt;h2 id=&quot;해커톤이란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%95%B4%EC%BB%A4%ED%86%A4%EC%9D%B4%EB%9E%80&quot; aria-label=&quot;해커톤이란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;해커톤이란?&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Jwhy Blogitory]]></title><description><![CDATA[Jwhy Blog Repository]]></description><link>https://jwhyee.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 19 Aug 2022 12:52:06 GMT</lastBuildDate><item><title><![CDATA[스프링부트 테스트 에러]]></title><description><![CDATA[문제 발단 기본적인 코드를 작성한 뒤 Test…]]></description><link>https://jwhyee.github.io/ERROR/spring-boot-test-error/</link><guid isPermaLink="false">https://jwhyee.github.io/ERROR/spring-boot-test-error/</guid><pubDate>Fri, 19 Aug 2022 21:08:37 GMT</pubDate><content:encoded>&lt;h2 id=&quot;문제-발단&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%AC%B8%EC%A0%9C-%EB%B0%9C%EB%8B%A8&quot; aria-label=&quot;문제 발단 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;문제 발단&lt;/h2&gt;
+&lt;p&gt;기본적인 코드를 작성한 뒤 Test를 해야할 일이 생겨 간단한 코드를 작성 후 돌려봤는데 아래와 같은 에러를 마주치게 되었다.&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;java.lang.IllegalStateException: Failed to load ApplicationContext&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 694px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 43%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAABSUlEQVQoz22RyU7DQBBE/R9IZPG+L/GM48Q2EUSQQyIhcUFc+P+vKKqTGStIOTz1TC815bajDj/I9Rm1uiBrz2jLI6pkQJWOyJMRSfmGrH5HUrwiSCa4YQ8v3DH+R3I+cbT6gOov2KgT8uqIKNCIVjXidUM2iL2WKERuC5+5gDWPBCuer/cGIaPL3GJZwZn6TxxPvxgP39C7LxTphHhZI6VALlBUyEjE4cxlpIDcpW6jCD8tSjgrXixrOnle3hxkRrBhriKpGSxMviIlqVkTStPruL7GPQuKyXDnd+iDDi/c2RRu0bK2NTnLPtjOSG1i7ywo7qyg7E/xrMlgBjasS04e0kZc2FG4M2d55KFgYgSlcaS7wQjqO0HrUOK98weCzdWhdWGHWk/Pa5DYXd3d3MtKrPBDh/I37c5kUJZtHVpnnflc2yN5eeAPpMcWJCYIL4wAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;test error&quot;
+        title=&quot;test error&quot;
+        src=&quot;/static/52d05b05eb88f2cc0a64e1f0e3bd69c3/31198/test-error.png&quot;
+        srcset=&quot;/static/52d05b05eb88f2cc0a64e1f0e3bd69c3/5a46d/test-error.png 300w,
+/static/52d05b05eb88f2cc0a64e1f0e3bd69c3/0a47e/test-error.png 600w,
+/static/52d05b05eb88f2cc0a64e1f0e3bd69c3/31198/test-error.png 694w&quot;
+        sizes=&quot;(max-width: 694px) 100vw, 694px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;에러-코드&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%97%90%EB%9F%AC-%EC%BD%94%EB%93%9C&quot; aria-label=&quot;에러 코드 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;에러 코드&lt;/h2&gt;
+&lt;p&gt;테스트로 작성한 코드는 아래와 같다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 601px;&quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 84.66666666666669%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAAsSAAALEgHS3X78AAACbElEQVQ4y41U23KbMBTkS9IAAsRd3O/Yxs7FjtM00ySd9q196P//wfZIJk4y09p9WDQDOquze1ZoYTKAOSW8dIeg/AI33cMO17g0C1waOQxWwLTK43oOmss7cCtHWDwgqR8QiQGxGBGGLaKoo8NqGO8KzhFrNj24VcAm4jy7wdBeQYQ1UtEpMPpm6CkMI4Nh5mdJNTtYwLBr6GYGv94jWr7Ab+/BghaGT3bEE6xkTesKzOv/o0NZJGWRZ0G+QdLfwc1X4CTdjkZFyGZCKxjPEzKnOcqIKvKxeyayDfkmCyuY9gz6/ir5JCGXHagOczhJD69aImgmeAV1VG4PqO5gi0ntkQefgmbRMEy7gUXgGXknbnHJBxgODYQ2MFbSYCow8pk5LSxSxE5AE8ktRLSB668QTT/Brn5Dn37B7n8gSCiblE83ugYP1nCDScGjnP4LmkNyXbtUWfP9Jcb2WqGfnrG4/o6s3CFPOxTFgkK/hZ/cULfVPJxZqvVOsmxTl9LkJiJltjQ3R5Rv0dU38OIRLnnruIckHIaTqZhJSF91eaPMQtVr0huTHSbK7Eat8iQ/u0PcPCEYHuGvPsNtdmowDtnD4w38cEkSV3CCAW5JVojFHBsiNI6EtYqIlBAUe8TtC9LxBfW4w2K9RT3dgw9PdMA3+II89SirXgtHHNaZsPlIKFvXE4TVI7L2KzKvgE5X7+IixqdPguSlhL9JzmcPPxAS6GSLBuG0D+BypSGIYotm2KNotnC87vRdfiVUOeLkIafWqch0qZDLdx2R9BSXHpzev024/PAXOhK+DkGSGfP1OkJFgSSZbzj3f/wD1WgM2s+LnkAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;test code example&quot;
+        title=&quot;test code example&quot;
+        src=&quot;/static/82de40057361a6c00f0c8249f185ce7f/d8f62/test-code-example.png&quot;
+        srcset=&quot;/static/82de40057361a6c00f0c8249f185ce7f/5a46d/test-code-example.png 300w,
+/static/82de40057361a6c00f0c8249f185ce7f/0a47e/test-code-example.png 600w,
+/static/82de40057361a6c00f0c8249f185ce7f/d8f62/test-code-example.png 601w&quot;
+        sizes=&quot;(max-width: 601px) 100vw, 601px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;정말 뭐 문제될게 없어 보여서 구글링하며 열심히 찾아봤더니 아래와 같은 어노테이션을 붙이라는 글을 보았다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token annotation punctuation&quot;&gt;@RunWith&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;SpringRunner&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token annotation punctuation&quot;&gt;@WebAppConfiguration&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;큰 기대감과 함께 작성해보았지만 당연히 같은 에러가 반복해서 떴다.&lt;br&gt;
+어떤 문제인지 살펴보고자 에러 코드를 분석했는데 그 중에서 아래와 같은 문구를 발견했다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;Caused by: java.lang.ClassNotFoundException: org.springframework.jdbc.support.JdbcTransactionManager&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;이 구문을 검색해 중국 커뮤니티에서 이에 대한 이슈를 다루고 있어 해결 방법을 찾을 수 있었다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// 변경 전 build.gradle&lt;/span&gt;
+dependencies &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    implementation group&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;org.springframework&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; name&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;spring-jdbc&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; version&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;5.2.3.RELEASE&apos;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// 변경 후 build.gradle&lt;/span&gt;
+dependencies &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+	implementation group&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;org.springframework&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; name&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;spring-jdbc&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; version&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;5.3.4&apos;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;spring-jdbc&lt;/code&gt; 의 버전 문제라 상위 버전으로 올려주니 말끔히 해결되었다 !&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;앞으로 에러가 발생하면 가장 위에 있는 구문을 검색해보는 것도 좋지만 중간에 발생한 문제부터 해결해보는 습관을 가져야할 것 같다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;( &lt;code class=&quot;language-text&quot;&gt;#Spring Boot Test Error&lt;/code&gt; ,  &lt;code class=&quot;language-text&quot;&gt;#Junit Test Error&lt;/code&gt; )&lt;/p&gt;</content:encoded></item><item><title><![CDATA[해커톤 프로젝트 회고(1회차)]]></title><description><![CDATA[해커톤이란?  + 의 합성어로 제한된 시간 동안 아이디어를 도출하고 결과물을 만들어내는 이벤트이다. 멋쟁이 사자처럼 백엔드 스쿨…]]></description><link>https://jwhyee.github.io/like-lion/hackerton-retrospect1/</link><guid isPermaLink="false">https://jwhyee.github.io/like-lion/hackerton-retrospect1/</guid><pubDate>Mon, 15 Aug 2022 17:09:30 GMT</pubDate><content:encoded>&lt;h2 id=&quot;해커톤이란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%95%B4%EC%BB%A4%ED%86%A4%EC%9D%B4%EB%9E%80&quot; aria-label=&quot;해커톤이란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;해커톤이란?&lt;/h2&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;해킹(hacking)&lt;/code&gt; + &lt;code class=&quot;language-text&quot;&gt;마라톤(marathon)&lt;/code&gt;의 합성어로 제한된 시간 동안 아이디어를 도출하고 결과물을 만들어내는 이벤트이다.&lt;br&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;멋쟁이 사자처럼 백엔드 스쿨 1기에서는 아이디어톤과 해커톤을 나눠서 진행했다.&lt;br&gt;
