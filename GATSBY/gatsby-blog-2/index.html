@@ -251,41 +251,37 @@ npm i --save-dev gh-pages</code></pre></div>
   push:
     branches:
       - gh-pages
-name: build gatsby
+
 jobs:
-  build_gatsby:
-    name: build
+  deploy:
     runs-on: ubuntu-18.04
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
 
       - name: Setup Node
         uses: actions/setup-node@v1
         with:
-          node-version: <span class="token string">'14.x'</span>
-      - name: Cache node_modules
+          node-version: <span class="token string">'10.x'</span>
+
+      - name: Cache dependencies
         uses: actions/cache@v1
         with:
-          path: node_modules
-          key: <span class="token variable">${{runner.OS}</span><span class="token punctuation">}</span>-build-<span class="token variable">${{hashFiles('**<span class="token operator">/</span>yarn.lock')}</span><span class="token punctuation">}</span>
+          path: ~/.npm
+          key: <span class="token variable">${{ runner.os }</span><span class="token punctuation">}</span>-node-<span class="token variable">${{ hashFiles('**<span class="token operator">/</span>package-lock.json') }</span><span class="token punctuation">}</span>
           restore-keys: <span class="token operator">|</span>
-            <span class="token variable">${{ runner.OS }</span><span class="token punctuation">}</span>-build-<span class="token variable">${{ runner.OS }</span><span class="token punctuation">}</span>-
-      - name: Install dependencies
-        run: <span class="token function">yarn</span> <span class="token function">install</span> --prod --pure-lockfile
+            <span class="token variable">${{ runner.os }</span><span class="token punctuation">}</span>-node-
+      - run: <span class="token function">npm</span> ci
+      - run: <span class="token function">npm</span> run <span class="token function">format</span>
+      - run: <span class="token function">npm</span> run <span class="token builtin class-name">test</span>
+      - run: <span class="token function">npm</span> run build
 
-      - name: <span class="token function">npm</span> <span class="token function">install</span> fs-extra
-        run <span class="token builtin class-name">:</span> <span class="token function">npm</span> <span class="token function">install</span> fs-extra
-
-      - name: Build
-        run: <span class="token function">yarn</span> build --prefix-paths
-        env:
-          NODE_ENV: production
-
-      - uses: peaceiris/actions-gh-pages@v2
-        env:
-          GITHUB_TOKEN: <span class="token variable">${{ secrets.EEYHWJ }</span><span class="token punctuation">}</span>
-          PUBLISH_BRANCH: master
-          PUBLISH_DIR: <span class="token string">'public/'</span></code></pre></div>
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: <span class="token variable">${{ secrets.GITHUB_TOKEN }</span><span class="token punctuation">}</span>
+          <span class="token comment"># github_token: ${{ secrets.GITHUB_TOKEN }}</span>
+          publish_dir: ./public
+          publish_branch: master  <span class="token comment"># deploying branch</span></code></pre></div>
 <h2 id="-new-post" style="position:relative;"><a href="#-new-post" aria-label=" new post permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>📝　<strong>New Post</strong></h2>
 <p>모든 과정을 완료 했으니 VS Code로 돌아와서 터미널에 npm run post를 입력해보자!<br>
 category를 설정하고 새로운 글을 작성해보자!</p>
