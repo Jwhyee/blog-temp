@@ -247,6 +247,10 @@ npm i --save-dev gh-pages</code></pre></div>
         loading="lazy"
       />
     </span></p>
+<blockquote>
+<p>사진에 있는 코드는 이전 버전이니 아래 있는 코드로 작성해주세요!
+2022년 8월 26일 업데이트</p>
+</blockquote>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">on:
   push:
     branches:
@@ -254,7 +258,7 @@ npm i --save-dev gh-pages</code></pre></div>
 
 jobs:
   deploy:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
 
@@ -282,8 +286,13 @@ jobs:
           <span class="token comment"># github_token: ${{ secrets.GITHUB_TOKEN }}</span>
           publish_dir: ./public
           publish_branch: master  <span class="token comment"># deploying branch</span></code></pre></div>
+<h3 id="waiting-for-a-runner-to-pick-up-this-job" style="position:relative;"><a href="#waiting-for-a-runner-to-pick-up-this-job" aria-label="waiting for a runner to pick up this job permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Waiting for a runner to pick up this job</h3>
+<p>위 구문이 뜨고 무한 대기에 빠진다면  <code class="language-text">ubuntu-latest</code> 혹은 <code class="language-text">ubuntu-18.04</code>로 바꿔보면 해결 될 것이다.<br></p>
+<blockquote>
+<p>ubuntu-18.04은 deprecated 되었으니 가능하면 쓰지 않는 것이 좋다.</p>
+</blockquote>
 <h2 id="-new-post" style="position:relative;"><a href="#-new-post" aria-label=" new post permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>📝　<strong>New Post</strong></h2>
-<p>모든 과정을 완료 했으니 VS Code로 돌아와서 터미널에 npm run post를 입력해보자!<br>
+<p>모든 과정을 완료 했으니 VS Code로 돌아와서 터미널에 <code class="language-text">npm run post</code>를 입력해보자!<br>
 category를 설정하고 새로운 글을 작성해보자!</p>
 <p><span
       class="gatsby-resp-image-wrapper"
@@ -308,7 +317,7 @@ category를 설정하고 새로운 글을 작성해보자!</p>
 <p>글을 다 작성했으면 아래 구문을 터미널에 입력해보자!</p>
 <div class="gatsby-highlight" data-language="sh"><pre class="language-sh"><code class="language-sh">git add .
 git commit -m &quot;create new post&quot;
-git push -u origin gh-pages</code></pre></div>
+git push origin gh-pages</code></pre></div>
 <p>다 입력했다면 Repository Actions에서 새로운 <strong>workflow</strong>가 실행되는지 확인해보자!</p>
 <p><span
       class="gatsby-resp-image-wrapper"
