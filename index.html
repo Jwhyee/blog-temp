@@ -72,8 +72,7 @@
 를 에 담아 에 보내준 상태에서 해당 에러가 발생했다. 🛠 구현 코드 🔎 원인 분석 우선 여러 가능성을 보기 위해 타임리프 구문을 지워보기도 했고, 에 있는 를 모두 지워보기도 했다. 총 2가지의 가능성을 확인했다. 만 제거 만 제거 결론적으로 을 통해 POST 요청이 되는 부분에서…</p></div></a><a class="thumbnail observed" href="/ERROR/entity-manager-factory-error/"><div><h3>[Spring][ERROR] - entity-manager-factory-error</h3><p>💬 상황 설명 레거시 프로젝트를 리팩토링하기 위해 실행시키니 아래와 같은 에러 구문 확인 🔎 원인 분석 해당 에러의 대부분은 에서 발생하는 것으로 보인다.
 우선 오랜만에 사용하는 프로젝트이기에 처음부터 다시 천천히 살펴보았다. ✅ 해결 과정 가장 처음으로 확인한 것은 ‘DB는 존재하는가?‘였다.
 역시나 맥북 초기화 이후 프로젝트를 실행한 적이 없어서 DB…</p></div></a><a class="thumbnail observed" href="/PROJECT/legacy-refactoring-2/"><div><h3>[Spring][Refactoring] - 레거시 코드 리팩터링(1)</h3><p>🛠 수정 1일차 이전 페이지에서 설명한 것과 같이 해당 프로젝트의 가장 큰 문제점은 에서  기능을 사용하지 못한다는 것이다.
-즉, 이를 해결하기 위해 와 관련된 로직 고도화를 진행하고, 에도 적용할 예정이다. 🔢 문제 해결 단계 의 관심사 분리  리팩터링  도입  적용 1️⃣ 의 관심사 분리 현재 에는 회원과 관련된 모든 서비스 로직이 포함되어 있다.
-그 중…</p></div></a><a class="thumbnail observed" href="/PROJECT/legacy-refactoring-1/"><div><h3>[Spring][Refactoring] - 레거시 코드 리팩터링(0)</h3><p>💬 수정 사유 스프링 공부를 시작한지 한 달 만에 만든 프로젝트를 수정해보려고 한다.
+즉, 이를 해결하기 위해 와 관련된 로직 고도화를 진행하고, 에도 적용할 예정이다. 🔢 문제 해결 단계 의 관심사 분리  리팩터링  도입  적용 1️⃣ AccountService의 관심사 분리 현재 에는 회원과 관련된 모든 서비스 로직…</p></div></a><a class="thumbnail observed" href="/PROJECT/legacy-refactoring-1/"><div><h3>[Spring][Refactoring] - 레거시 코드 리팩터링(0)</h3><p>💬 수정 사유 스프링 공부를 시작한지 한 달 만에 만든 프로젝트를 수정해보려고 한다.
 , ,  등에 대한 이해도가 많이 부족해서 제대로 사용하지 않았다.
 이번 기회에 레거시 코드를 걷어내고 새로 작성하면서 성능에 대한 차이도 살펴보고, 공부하는 시간을 가져야겠다는 생각을 했다. 🛠 수정할 사항 대략 1년 전에 개발한 프로젝트이기 때문에 천천히 진행해보고자…</p></div></a><a class="thumbnail observed" href="/spring-boot/optional/"><div><h3>[Spring] - Optional의 사용</h3><p>Opiotnal이란? 아래 코드를 통해 간단하게 이해해보자! 만약 존재하지 않는 가 들어왔을 경우 에는 값이 저장된다.
 이런 상황에서 방어 로직 없이 코드가 돌아가면 에서 난잡한 에러 구문을 보게 될 것이다.
